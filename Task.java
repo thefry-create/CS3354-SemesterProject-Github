@@ -30,6 +30,7 @@ public class Task implements Serializable {
     public TaskStatus getStatus() { return status; }
     public String getOwnerUserId() { return ownerUserId; }
     public TaskSplitRule getSplitRule() { return splitRule; }
+    public void setTaskId(String taskId) { this.taskId = taskId; }
     public void setDescription(String description) { this.description = description; }
     public void setType(TaskType type) { this.type = type; }
     public void setDueDate(LocalDateTime dueDate) { this.dueDate = dueDate; }
