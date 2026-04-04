@@ -392,7 +392,7 @@ class ViewDailyPlan_UseCase_Testing {
         new java.io.File("users.ser").delete();
         userRepo = new UserRepository();
         taskRepo = new TaskRepository(userRepo);
-        schedulerService = new SchedulerService();
+        schedulerService = new SchedulerService(new PriorityService());
         notificationService = new NotificationService(userRepo);
         studyPlanController = new StudyPlanController(schedulerService, taskRepo, userRepo, notificationService);
         dailyPlanController = new DailyPlanController(studyPlanController);
