@@ -1,0 +1,1 @@
+public enum TaskType { ASSIGNMENT, STUDY_SESSION, EVENT, CUSTOM }

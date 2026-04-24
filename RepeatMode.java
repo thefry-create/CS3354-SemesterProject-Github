@@ -1,0 +1,1 @@
+public enum RepeatMode { THIS_WEEK_ONLY, REPEATABLE, INDEFINITE }

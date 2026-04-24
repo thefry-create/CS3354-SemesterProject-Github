@@ -1,0 +1,1 @@
+public enum NotificationType { EMAIL, TEXT, PUSH }

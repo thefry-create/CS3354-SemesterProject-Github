@@ -1,0 +1,1 @@
+public enum TaskStatus { PENDING, SCHEDULED, COMPLETED, MISSED, DELETED }
